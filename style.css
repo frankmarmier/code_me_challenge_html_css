@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Six+Caps&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  text-align: center;
+}
+
+.title {
+  color: rgb(48, 48, 48);
+}
+
+#launch-pad {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(5, 150px);
+  column-gap: 5px;
+  row-gap: 5px;
+  justify-content: center;
+  width: min-content;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.pad {
+  background-color: rgb(142, 187, 232);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pad:active {
+  background-color: plum;
+}
+
+.logos {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(225, 224, 224);
+  padding: 20px;
+  color: black;
+  border-radius: 4px;
+}
+
+.brand {
+  font-size: 70px;
+  font-family: "Six Caps";
+  letter-spacing: 7px;
+  margin-right: 20px;
+}
+
+.logos img {
+  width: 100px;
+  height: auto;
+}
