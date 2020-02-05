@@ -22,6 +22,7 @@ html {
 }
 
 .title {
+  margin: 20px auto;
   color: rgb(48, 48, 48);
 }
 
@@ -30,8 +31,8 @@ html {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/grid  */
   /* Here is a guide explaining the css grid system  https://css-tricks.com/snippets/css/complete-guide-grid */
   display: grid;
-  grid-template-columns: repeat(4, 150px);
-  grid-template-rows: repeat(5, 150px);
+  grid-template-columns: repeat(4, 110px);
+  grid-template-rows: repeat(5, 110px);
   column-gap: 5px;
   row-gap: 5px;
   justify-content: center;
