@@ -27,6 +27,7 @@ html {
 }
 
 #launch-pad {
+  user-select: none;
   background-color: grey;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/grid  */
   /* Here is a guide explaining the css grid system  https://css-tricks.com/snippets/css/complete-guide-grid */
@@ -43,16 +44,17 @@ html {
 }
 
 .pad {
-  background-color: rgb(142, 187, 232);
+  background-color: rgb(89, 163, 238);
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 8px solid rgb(19, 210, 239);
+  /* border: 8px solid rgb(19, 210, 239); */
 }
 
 .pad:active {
-  background-color: plum;
+  background-color: #33C3FF;
+
 }
 
 .logos {
@@ -78,5 +80,6 @@ html {
 
 .logos img {
   width: 100px;
+  padding: 10px;
   height: auto;
 }
